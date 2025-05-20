@@ -297,7 +297,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       windowsCatalog: "catalogs/PvcNL.pdf",
       pvcCatalog: "catalogs/PvcNL.pdf",
       doorsCatalog: "catalogs/DrzwiZewNL.pdf",
-      despiroCatalog: "catalogs/DespiroNL.pdf",
+      despiroCatalog: "catalogs/DespiroEN.pdf",
       blindsCatalog: "catalogs/RoletyNL.pdf",
       gatesCatalog: "catalogs/BramyNL.pdf",
       miniCatalogUrl: "catalogs/MiniNL.pdf"
