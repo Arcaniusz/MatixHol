@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MatixHol – okna, drzwi, rolety, bramy i drzwi Despiro najwyższej jakości. Nowoczesne rozwiązania dla Twojego domu z gwarancją energooszczędności i bezpieczeństwa. | MatixHol – high-quality windows, doors, shutters, gates, and Despiro doors. Modern solutions for your home with energy efficiency and safety guarantee. | MatixHol – ramen, deuren, rolluiken, poorten en Despiro-deuren van topkwaliteit. Moderne oplossingen voor uw huis met garantie op energiezuinigheid en veiligheid.">
+  <meta name="keywords" content="okna, drzwi, rolety, bramy, drzwi Despiro, MatixHol, energooszczędne okna, nowoczesne drzwi, producent okien i drzwi, montaż, aluminiowe drzwi, PVC, dom, budownictwo, stolarka otworowa, windows, doors, shutters, gates, Despiro doors, energy-efficient windows, modern doors, window and door manufacturer, installation, aluminium doors, home, construction, joinery, ramen, deuren, rolluiken, poorten, Despiro-deuren, energiezuinige ramen, moderne deuren, fabrikant van ramen en deuren, installatie, aluminium deuren, woning, bouw, schrijnwerk">
+  <title>Deuren en kozijnen | MatixHol</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo">
+      <i class="fas fa-window-maximize"></i>
+      <span>MatixHol</span>
+    </div>
+    <nav class="top-nav">
+      <a href="#okna" class="nav-link"><i class="fas fa-window-restore"></i> Okna</a>
+      <a href="#drzwi" class="nav-link"><i class="fas fa-door-open"></i> Drzwi</a>
+      <a href="#drzwi-despiro" class="nav-link"><i class="fas fa-door-closed"></i> Drzwi Despiro</a>
+      <a href="#rolety" class="nav-link"><i class="fas fa-bars"></i> Rolety</a>
+      <a href="#bramy" class="nav-link"><i class="fas fa-warehouse"></i> Bramy</a>
+      <a href="#kontakt" class="nav-link"><i class="fas fa-envelope"></i> Kontakt</a>
+    </nav>
+
+    <div class="language-switcher">
+        <button class="language-btn" id="language-toggle">
+          <img src="https://flagcdn.com/w40/pl.png" alt="Polski" id="current-lang-flag"> 
+          <span id="current-lang">PL</span>
+          <i class="fas fa-chevron-down" style="margin-left: 8px; font-size: 12px;"></i>
+        </button>
+        <div class="language-dropdown" id="language-dropdown">
+          <div class="language-option" data-lang="pl">
+            <img src="https://flagcdn.com/w40/pl.png" alt="Polski">
+            <span>Polski</span>
+          </div>
+          <div class="language-option" data-lang="nl">
+            <img src="https://flagcdn.com/w40/nl.png" alt="Nederlands">
+            <span>Nederlands</span>
+          </div>
+          <div class="language-option" data-lang="en">
+            <img src="https://flagcdn.com/w40/gb.png" alt="English">
+            <span>English</span>
+          </div>
+        </div>
+      </div>
+
+    <div class="mobile-menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Nowoczesne Rozwiązania <span class="highlight">Dla Twojego Domu</span></h1>
+      <p class="hero-subtitle">Jakość, profesjonalizm i zadowolenie klienta</p>
+      <a href="#kontakt" class="cta-button">Skontaktuj się z nami</a>
+    </div>
+  </section>
+
+  <!-- O Nas -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title">O Nas</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Jesteśmy doświadczoną firmą specjalizującą się w dostarczaniu wysokiej jakości okien, drzwi i rolet. Naszym celem jest zapewnienie klientom produktów, które łączą nowoczesny design z funkcjonalnością i energooszczędnością.</p>
+          <div class="stats-container">
+            <div class="stat-item">
+              <i class="fas fa-check-circle"></i>
+              <span class="stat-number">500+</span>
+              <span class="stat-desc">Zadowolonych Klientów</span>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-award"></i>
+              <span class="stat-number">10+</span>
+              <span class="stat-desc">Lat Doświadczenia</span>
+            </div>
+            <div class="stat-item">
+              <i class="fas fa-home"></i>
+              <span class="stat-number">1000+</span>
+              <span class="stat-desc">Zrealizowanych Projektów</span>
+            </div>
+          </div>
+          <div class="mini-catalog-button">
+            <a href="katalogi/mini_katalog.pdf" class="catalog-button" target="_blank">
+              Zobacz nasz mini katalog
+            </a>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="img/prace/praca10.jpg" alt="Nasze biuro" class="about-img" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sekcje produktowe -->
+  <section class="product-section" id="okna">
+    <div class="container">
+      <h2 class="section-title">Okna</h2>
+      <p class="product-description">Oferujemy szeroką gamę okien dopasowanych do każdego stylu architektonicznego. Nasze produkty charakteryzują się wysoką efektywnością energetyczną i doskonałą izolacją akustyczną.</p>
+      
+      <div class="product-categories">
+        <div class="product-category">
+          <i class="fas fa-leaf"></i>
+          <h3>Energooszczędne</h3>
+          <p>Minimalizują straty ciepła</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-volume-mute"></i>
+          <h3>Dźwiękoszczelne</h3>
+          <p>Skuteczna izolacja akustyczna</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-lock"></i>
+          <h3>Bezpieczne</h3>
+          <p>Zaawansowane systemy zabezpieczeń</p>
+        </div>
+      </div>
+      
+      <div class="slider-wrapper">
+        <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container">
+          <img src="img\PCV\PCV1.png" alt="Okno 1" />
+          <img src="img\PCV\PCV2.png" alt="Okno 2" />
+          <img src="img\PCV\PCV3.png" alt="Okno 3" />
+          <img src="img\PCV\PCV4.png" alt="Okno 4" />
+          <img src="img\PCV\PCV5.png" alt="Okno 5" />
+          <img src="img\PCV\PCV6.png" alt="Okno 6" />
+        </div>
+        <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="catalog-button-container">
+        <a href="katalogi/okna_katalog.pdf" class="catalog-button" target="_blank">Zobacz więcej...</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section" id="drzwi">
+    <div class="container">
+      <h2 class="section-title">Drzwi</h2>
+      <p class="product-description">Nasze drzwi łączą w sobie wytrzymałość, bezpieczeństwo i elegancki wygląd. Oferujemy zarówno drzwi wewnętrzne, jak i zewnętrzne w różnych stylach i wykończeniach.</p>
+      
+      <div class="product-categories">
+        <div class="product-category">
+          <i class="fas fa-shield-alt"></i>
+          <h3>Wzmocnione</h3>
+          <p>Solidna konstrukcja</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-paint-brush"></i>
+          <h3>Różne Wykończenia</h3>
+          <p>Dopasowane do wnętrza</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-temperature-low"></i>
+          <h3>Termoizolacyjne</h3>
+          <p>Zapobiegają utracie ciepła</p>
+        </div>
+      </div>
+      
+      <div class="slider-wrapper">
+        <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container">
+          <img src="img\drzwi\drzwi1.png" alt="Drzwi 1" />
+          <img src="img\drzwi\drzwi3.png" alt="Drzwi 2" />
+          <img src="img\drzwi\drzwi2.png" alt="Drzwi 3" />
+          <img src="img\drzwi\drzwi6.png" alt="Drzwi 4" />
+          <img src="img\drzwi\drzwi4.png" alt="Drzwi 5" />
+          <img src="img\drzwi\drzwi5.png" alt="Drzwi 6" />
+        </div>
+        <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="catalog-button-container">
+        <a href="katalogi/drzwi_katalog.pdf" class="catalog-button" target="_blank">Zobacz więcej...</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drzwi Despiro Section -->
+  <section class="product-section alt-bg" id="drzwi-despiro">
+    <div class="container">
+      <h2 class="section-title">Drzwi Despiro</h2>
+      <p class="product-description">Drzwi Despiro to ekskluzywna linia drzwi aluminiowych o wyjątkowym wzornictwie i najwyższej jakości wykonania. Łączą w sobie funkcjonalność, trwałość i nowoczesny design.</p>
+      
+      <div class="product-categories">
+        <div class="product-category">
+          <i class="fas fa-star"></i>
+          <h3>Prestiżowe</h3>
+          <p>Elegancki wygląd dla wymagających</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-fingerprint"></i>
+          <h3>Zaawansowane Zabezpieczenia</h3>
+          <p>Inteligentne systemy zamków</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-ruler-combined"></i>
+          <h3>Indywidualny Projekt</h3>
+          <p>Dostosowane do potrzeb klienta</p>
+        </div>
+      </div>
+      
+      <div class="slider-wrapper">
+        <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container">
+          <img src="img\despiro\despiro5.png" alt="Drzwi Despiro 1" />
+          <img src="img\despiro\despiro2.png" alt="Drzwi Despiro 2" />
+          <img src="img\despiro\despiro3.png" alt="Drzwi Despiro 3" />
+          <img src="img\despiro\despiro4.png" alt="Drzwi Despiro 4" />
+          <img src="img\despiro\despiro1.png" alt="Drzwi Despiro 5" />
+          <img src="img\despiro\despiro6.png" alt="Drzwi Despiro 6" />
+        </div>
+        <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="catalog-button-container">
+        <a href="katalogi/drzwi_despiro_katalog.pdf" class="catalog-button" target="_blank">Zobacz więcej...</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section" id="rolety">
+    <div class="container">
+      <h2 class="section-title">Rolety</h2>
+      <p class="product-description">Nasze rolety zapewniają ochronę przed słońcem i zwiększają prywatność. Dostępne w różnych kolorach i materiałach, by pasowały do wystroju każdego wnętrza.</p>
+      
+      <div class="product-categories">
+        <div class="product-category">
+          <i class="fas fa-sun"></i>
+          <h3>Ochrona UV</h3>
+          <p>Filtrują promienie słoneczne</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-palette"></i>
+          <h3>Szeroka Gama Kolorów</h3>
+          <p>Dopasowane do każdego wnętrza</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-cog"></i>
+          <h3>Automatyczne</h3>
+          <p>Sterowanie pilotem lub telefonem</p>
+        </div>
+      </div>
+      
+      <div class="slider-wrapper">
+        <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container">
+          <img src="img\rolety\rolety1.png" alt="Rolety 1" />
+          <img src="img\rolety\rolety2.png" alt="Rolety 2" />
+          <img src="img\rolety\rolety3.png" alt="Rolety 3" />
+          <img src="img\rolety\rolety4.png" alt="Rolety 4" />
+          <img src="img\rolety\rolety5.png" alt="Rolety 5" />
+          <img src="img\rolety\rolety6.png" alt="Rolety 6" />
+        </div>
+        <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="catalog-button-container">
+        <a href="katalogi/rolety_katalog.pdf" class="catalog-button" target="_blank">Zobacz więcej...</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bramy Section -->
+  <section class="product-section alt-bg" id="bramy">
+    <div class="container">
+      <h2 class="section-title">Bramy</h2>
+      <p class="product-description">Oferujemy solidne i nowoczesne bramy garażowe i wjazdowe, które zapewniają bezpieczeństwo i komfort użytkowania. Dostępne w różnych wzorach i kolorach.</p>
+      
+      <div class="product-categories">
+        <div class="product-category">
+          <i class="fas fa-car"></i>
+          <h3>Garażowe</h3>
+          <p>Segmentowe i rolowane</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-home"></i>
+          <h3>Wjazdowe</h3>
+          <p>Przesuwne i skrzydłowe</p>
+        </div>
+        <div class="product-category">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Sterowanie Zdalne</h3>
+          <p>Łatwa obsługa z każdego miejsca</p>
+        </div>
+      </div>
+      
+      <div class="slider-wrapper">
+        <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-container">
+          <img src="img\bramy\brama1.png" alt="Brama 1" />
+          <img src="img\bramy\brama2.png" alt="Brama 2" />
+          <img src="img\bramy\brama3.png" alt="Brama 3" />
+          <img src="img\bramy\brama4.png" alt="Brama 4" />
+          <img src="img\bramy\brama5.png" alt="Brama 5" />
+          <img src="img\bramy\brama6.png" alt="Brama 6" />
+        </div>
+        <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      
+      <div class="catalog-button-container">
+        <a href="katalogi/bramy_katalog.pdf" class="catalog-button" target="_blank">Zobacz więcej...</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-section alt-bg" id="dodatki-section">
+    <div class="container">
+      <h2 class="section-title">Dodatki</h2>
+      <p class="product-description">Oferujemy szeroki wybór dodatków, które zwiększają funkcjonalność i estetykę naszych produktów. Zapoznaj się z poniższymi propozycjami.</p>
+  
+      <!-- Slider 1 -->
+      <div class="slider-block">
+        <p class="slider-description" data-key="addons1">Parapety zewnętrzne i wewnętrzne dopasowane do każdego wnętrza</p>
+        <div class="slider-wrapper">
+          <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-container">
+            <img src="img/dodatki/parapet1.png" alt="parapety 1" />
+            <img src="img/dodatki/parapet2.png" alt="parapety 2" />
+            <img src="img/dodatki/parapet3.png" alt="parapety 3" />
+            <img src="img/dodatki/parapet4.png" alt="parapety 4" />
+            <img src="img/dodatki/parapet5.png" alt="parapety 5" />
+            <img src="img/dodatki/parapet6.png" alt="parapety 6" />
+            <img src="img/dodatki/parapet7.png" alt="parapety 7" />
+            <img src="img/dodatki/parapet8.png" alt="parapety 8" />
+          </div>
+          <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+  
+      <!-- Slider 2 -->
+      <div class="slider-block">
+        <p class="slider-description" data-key="addons2">Funkcjonalne moskitiery chroniące przed owadami i zanieczyszczeniami</p>
+        <div class="slider-wrapper">
+          <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-container">
+            <img src="img/dodatki/moskitiera1.png" alt="moskitiery 1" />
+            <img src="img/dodatki/moskitiera2.png" alt="moskitiery 2" />
+            <img src="img/dodatki/moskitiera3.png" alt="moskitiery 4" />
+            <img src="img/dodatki/moskitiera4.png" alt="moskitiery 4" />
+          </div>
+          <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+  
+      <div class="contact-prompt">
+        <p class="contact-text" data-key="addonsContactText">Po więcej informacji skontaktuj się z nami</p>
+        <a href="#kontakt" class="catalog-button" data-key="addonsContactBtn">Skontaktuj się</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nasze realizacje -->
+  <section class="portfolio-section" id="portfolio">
+    <div class="container">
+      <h2 class="section-title">Nasze Realizacje</h2>
+      <p class="section-description">Zobacz nasze wybrane projekty, które zrealizowaliśmy dla zadowolonych klientów</p>
+      
+      <div class="slider-block">
+        <div class="slider-wrapper">
+          <button class="slider-arrow left"><i class="fas fa-chevron-left"></i></button>
+          <div class="slider-container">
+            <img src="img/prace/temp1.jpg" alt="praca" />
+            <img src="img/prace/temp2.jpg" alt="praca" />
+            <img src="img/prace/temp3.jpg" alt="praca" />
+            <img src="img/prace/temp5.jpg" alt="praca" />
+            <img src="img/prace/temp6.jpg" alt="praca" />
+            <img src="img/prace/temp7.jpg" alt="praca" />
+            <img src="img/prace/temp8.jpg" alt="praca" />
+            <img src="img/prace/temp9.jpg" alt="praca" />
+          </div>
+          <button class="slider-arrow right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Kontakt -->
+  <section class="contact-section" id="kontakt">
+    <div class="container">
+      <h2 class="section-title">Skontaktuj Się z Nami</h2>
+      
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h3>Adres</h3>
+              <p>Weidedreef 111 <br> 2727 EC Zoetermeer</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h3 id="phone-title">Telefon</h3>
+              <p id="phone">+31 06 295 791 50</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h3 id="email-title">Email</h3>
+              <p id="email">info@matixhol.nl</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h3 id="hours-title">Godziny otwarcia</h3>
+              <p id="hours">Poniedziałek - Piątek: 9:00 - 17:00</p>
+            </div>
+          </div>
+          
+        </div>
+        
+        <div class="contact-form">
+            <form id="contactForm">
+                <input type="text" name="_honey" style="display: none;">
+        
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Imię i nazwisko" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" placeholder="Telefon">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Wiadomość" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submitButton">
+                    <span class="button-text">Wyślij wiadomość</span>
+                    <div class="loading-spinner hidden"></div>
+                </button>
+            </form>
+            
+            <div id="alert" class="alert hidden"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stopka -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-window-maximize"></i>
+          <span>MatixHol</span>
+        </div>
+        <div class="footer-links">
+          <a href="#okna">Okna</a>
+          <a href="#drzwi">Drzwi</a>
+          <a href="#drzwi-despiro">Drzwi Despiro</a>
+          <a href="#rolety">Rolety</a>
+          <a href="#bramy">Bramy</a>
+          <a href="#kontakt">Kontakt</a> 
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=61570406111117" class="social-icon" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/matixhol_kunststof_kozijnen/" class="social-icon" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/" class="social-icon" target="_blank" rel="noopener noreferrer">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 MatixHol. Wszelkie prawa zastrzeżone.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script src="sendemail.js"></script>
+
+</body>
+</html>
