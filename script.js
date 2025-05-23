@@ -190,7 +190,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       blindsCatalog: "catalogs/RoletyPL.pdf",
       gatesCatalog: "catalogs/BramyPL.pdf",
       miniCatalogUrl: "catalogs/MiniPL.pdf",
-      colorCatalogUrl: "catalogs/Color.pdf",
+      colorCatalogUrl: "catalogs/color.pdf",
     },
     
     // nl
@@ -304,7 +304,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       blindsCatalog: "catalogs/RoletyNL.pdf",
       gatesCatalog: "catalogs/BramyNL.pdf",
       miniCatalogUrl: "catalogs/MiniNL.pdf",
-      colorCatalogUrl: "catalogs/Color.pdf",
+      colorCatalogUrl: "catalogs/color.pdf",
     },
     
     // eng
@@ -418,7 +418,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       blindsCatalog: "catalogs/RoletyEn.pdf",
       gatesCatalog: "catalogs/BramyEn.pdf",
       miniCatalogUrl: "catalogs/MiniEn.pdf",
-      colorCatalogUrl: "catalogs/Color.pdf",
+      colorCatalogUrl: "catalogs/color.pdf",
     }
   };
   
