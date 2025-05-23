@@ -90,6 +90,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       bramy: "Bramy",
       kontakt: "Kontakt",
       miniCatalogText: "Zobacz nasz mini katalog",
+      colorCatalogText: "Zobacz nasz katalog kolorów",
       
       heroTitle: "Nowoczesne Rozwiązania <span class='highlight'>Dla Twojego Domu</span>",
       heroSubtitle: "Jakość, profesjonalizm i zadowolenie klienta",
@@ -188,7 +189,8 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       despiroCatalog: "catalogs/DespiroPL.pdf",
       blindsCatalog: "catalogs/RoletyPL.pdf",
       gatesCatalog: "catalogs/BramyPL.pdf",
-      miniCatalogUrl: "catalogs/MiniPL.pdf"
+      miniCatalogUrl: "catalogs/MiniPL.pdf",
+      colorCatalogUrl: "catalogs/Color.pdf",
     },
     
     // nl
@@ -201,6 +203,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       bramy: "Poorten",
       kontakt: "Contact",
       miniCatalogText: "Bekijk onze mini catalogus",
+      colorCatalogText: "Bekijk onze kleurencatalogus",
       
       heroTitle: "Moderne oplossingen <span class='highlight'>voor uw huis</span>",
       heroSubtitle: "Kwaliteit, professionaliteit en klanttevredenheid",
@@ -300,7 +303,8 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       despiroCatalog: "catalogs/DespiroEN.pdf",
       blindsCatalog: "catalogs/RoletyNL.pdf",
       gatesCatalog: "catalogs/BramyNL.pdf",
-      miniCatalogUrl: "catalogs/MiniNL.pdf"
+      miniCatalogUrl: "catalogs/MiniNL.pdf",
+      colorCatalogUrl: "catalogs/Color.pdf",
     },
     
     // eng
@@ -313,6 +317,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       bramy: "Gates",
       kontakt: "Contact",
       miniCatalogText: "Check our mini Catalog",
+      colorCatalogText: "Check our color catalog",
       
       heroTitle: "Modern Solutions <span class='highlight'>For Your Home</span>",
       heroSubtitle: "Quality, professionalism and customer satisfaction",
@@ -412,7 +417,8 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       despiroCatalog: "catalogs/DespiroEn.pdf",
       blindsCatalog: "catalogs/RoletyEn.pdf",
       gatesCatalog: "catalogs/BramyEn.pdf",
-      miniCatalogUrl: "catalogs/MiniEn.pdf"
+      miniCatalogUrl: "catalogs/MiniEn.pdf",
+      colorCatalogUrl: "catalogs/Color.pdf",
     }
   };
   
@@ -438,7 +444,6 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       
       languageDropdown.classList.remove('show');
       
-      // Add a small delay to ensure DOM is ready
       setTimeout(() => {
         changeLanguage(lang);
         console.log("Language change triggered for: " + lang);
@@ -491,10 +496,15 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
     }
   
     // ----- Mini Catalog Button -----
-    const miniCatalogBtn = document.querySelector('.mini-catalog-button .catalog-button');
-    if (miniCatalogBtn) {
-        miniCatalogBtn.textContent = translations[lang].miniCatalogText;
-        miniCatalogBtn.setAttribute('href', translations[lang].miniCatalogUrl);
+    const catalogButtons = document.querySelectorAll('.mini-catalog-button .catalog-button');
+    if (catalogButtons.length >= 2) {
+      // First button (mini catalog)
+      catalogButtons[0].textContent = translations[lang].miniCatalogText;
+      catalogButtons[0].setAttribute('href', translations[lang].miniCatalogUrl);
+      
+      // Second button (color catalog)
+      catalogButtons[1].textContent = translations[lang].colorCatalogText;
+      catalogButtons[1].setAttribute('href', translations[lang].colorCatalogUrl);
     }
 
   
