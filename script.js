@@ -791,7 +791,7 @@ document.querySelector('.mobile-menu-toggle').addEventListener('click', function
       if (option) {
         option.click();
       } else {
-        changeLanguage('pl');
+        changeLanguage('en');
       }
     } else {
       changeLanguage('pl');
